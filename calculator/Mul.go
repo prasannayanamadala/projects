@@ -10,30 +10,30 @@ func MulOperation() {
 	Int64 — [-9223372036854775808 : 9223372036854775807]*/
 	
 	var x1 int8
-	x1 = -125
+	x1 = 9
 	var x2 int8
-	x2 = -55
+	x2 = 3
 	MULInt8 := x1 * x2
 	fmt.Println("MULInt8:", MULInt8)
 
 	var x3 int16
-	x3 = -31000
+	x3 = 27
 	var x4 int16
-	x4= -28000
+	x4= 5
 	MULInt16 := x3 * x4
 	fmt.Println("MULInt16:", MULInt16)
 
 	var x5 int32
-	x5 = 56778899
+	x5 = 56
 	var x6 int32
-	x6 = 567687698
+	x6 = 56
 	MULInt32 := x5 * x6
 	fmt.Println("MULInt32:", MULInt32)
 
 	var x7 int64
-	x7 = 345466578789999999
+	x7 = 128
 	var x8 int64
-	x8 = 678687908098080675
+	x8 = 128
 	MULInt64 := x7 * x8
 	fmt.Println("MULInt64:", MULInt64)
 
@@ -53,23 +53,23 @@ func MulOperation() {
 	fmt.Println("MULUInt8:", MULUInt8)
 
 	var y3 uint16
-	y3 = 7689
+	y3 = 54
 	var y4 uint16
-	y4 = 64232
+	y4 = 12
 	MULUInt16 := y3 * y4
 	fmt.Println("MULUInt16:", MULUInt16)
 
 	var y5 uint32
-	y5 = 657868698
+	y5 = 64
 	var y6 uint32
-	y6 = 678679999
+	y6 = 621
 	MULUInt32 := y5 * y6
 	fmt.Println("MULUInt32:", MULUInt32)
 
 	var y7 uint64
-	y7 = 576588988654555
+	y7 = 576
 	var y8 uint64
-	y8 = 567587688333330998
+	y8 = 567
 	MULUInt64 := y7 * y8
 	fmt.Println("MULUInt64:", MULUInt64)
 
@@ -79,16 +79,16 @@ func MulOperation() {
 //floating point
 
 	var z1 float32
-	z1 = -666.433
+	z1 = -6.4
 	var z2 float32
-	z2 = -577.8898
+	z2 = -7.8
 	MULFloat32 := z1 * z2
 	fmt.Println("MULFloat32:", MULFloat32)
 
 	var z3 float64
-	z3 = -666.433
+	z3 = -12.43
 	var z4 float64
-	z4 = -577.8898
+	z4 = 2.475
 	MULFloat64 := z3 * z4
 	fmt.Println("MULFloat64:", MULFloat64)
 

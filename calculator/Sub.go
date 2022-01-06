@@ -10,30 +10,30 @@ func SubOperation() {
 	Int64 — [-9223372036854775808 : 9223372036854775807]*/
 	
 	var x1 int8
-	x1 = -125
+	x1 = -5
 	var x2 int8
-	x2 = -55
+	x2 = -5
 	SUBInt8 := x1 - x2
 	fmt.Println("SUBInt8:", SUBInt8)
 
 	var x3 int16
-	x3 = -31000
+	x3 = -3
 	var x4 int16
-	x4= -28000
+	x4= -28
 	SUBInt16 := x3 - x4
 	fmt.Println("SUBInt16:", SUBInt16)
 
 	var x5 int32
-	x5 = 56778899
+	x5 = 566
 	var x6 int32
-	x6 = 567687698
+	x6 = 567
 	SUBInt32 := x5 - x6
 	fmt.Println("SUBInt32:", SUBInt32)
 
 	var x7 int64
-	x7 = 345466578789999999
+	x7 = 3457
 	var x8 int64
-	x8 = 678687908098080675
+	x8 = 6786
 	SUBInt64 := x7 - x8
 	fmt.Println("SUBInt64:", SUBInt64)
 
@@ -53,23 +53,23 @@ func SubOperation() {
 	fmt.Println("SUBInt8:", SUBUInt8)
 
 	var y3 uint16
-	y3 = 7689
+	y3 = 768
 	var y4 uint16
-	y4 = 64232
+	y4 = 623
 	SUBUInt16 := y3 - y4
 	fmt.Println("SUBUInt16:", SUBUInt16)
 
 	var y5 uint32
-	y5 = 657868698
+	y5 = 6570
 	var y6 uint32
-	y6 = 678679999
+	y6 = 6187
 	SUBUInt32 := y5 - y6
 	fmt.Println("SUBUInt32:", SUBUInt32)
 
 	var y7 uint64
-	y7 = 576588988654555
+	y7 = 576588
 	var y8 uint64
-	y8 = 567587688333330998
+	y8 = 567587
 	SUBUInt64 := y7 - y8
 	fmt.Println("SUBUInt64:", SUBUInt64)
 
@@ -79,9 +79,9 @@ func SubOperation() {
 //floating point
 
 	var z1 float32
-	z1 = -666.433
+	z1 = -6.33
 	var z2 float32
-	z2 = -577.8898
+	z2 = -7.88
 	SUBFloat32 := z1 - z2
 	fmt.Println("SUBFloat32:", SUBFloat32)
 

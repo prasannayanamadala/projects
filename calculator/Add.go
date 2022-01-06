@@ -10,30 +10,30 @@ func AddOperation() {
 	Int64 — [-9223372036854775808 : 9223372036854775807]*/
 	
 	var x1 int8
-	x1 = -125
+	x1 = 56
 	var x2 int8
-	x2 = -55
+	x2 = 55
 	ADDInt8 := x1 + x2
 	fmt.Println("ADDInt8:", ADDInt8)
 
 	var x3 int16
-	x3 = -31000
+	x3 = -310
 	var x4 int16
-	x4= -28000
+	x4= -280
 	ADDInt16 := x3 + x4
 	fmt.Println("ADDInt16:", ADDInt16)
 
 	var x5 int32
-	x5 = 56778899
+	x5 = 567
 	var x6 int32
-	x6 = 567687698
+	x6 = 56768
 	ADDInt32 := x5 + x6
 	fmt.Println("ADDInt32:", ADDInt32)
 
 	var x7 int64
-	x7 = 345466578789999999
+	x7 = 345466578
 	var x8 int64
-	x8 = 678687908098080675
+	x8 = 67868
 	ADDInt64 := x7 + x8
 	fmt.Println("ADDInt64:", ADDInt64)
 
@@ -53,23 +53,23 @@ func AddOperation() {
 	fmt.Println("ADDUInt8:", ADDUInt8)
 
 	var y3 uint16
-	y3 = 7689
+	y3 = 768
 	var y4 uint16
-	y4 = 64232
+	y4 = 6
 	ADDUInt16 := y3 + y4
 	fmt.Println("ADDUInt16:", ADDUInt16)
 
 	var y5 uint32
-	y5 = 657868698
+	y5 = 657
 	var y6 uint32
-	y6 = 678679999
+	y6 = 6786
 	ADDUInt32 := y5 + y6
 	fmt.Println("ADDUInt32:", ADDUInt32)
 
 	var y7 uint64
-	y7 = 576588988654555
+	y7 = 576
 	var y8 uint64
-	y8 = 567587688333330998
+	y8 = 56
 	ADDUInt64 := y7 + y8
 	fmt.Println("ADDUInt64:", ADDUInt64)
 
@@ -86,9 +86,9 @@ func AddOperation() {
 	fmt.Println("ADDFloat32:", ADDFloat32)
 
 	var z3 float64
-	z3 = -666.433
+	z3 = -666.43
 	var z4 float64
-	z4 = -577.8898
+	z4 = -577.889
 	ADDFloat64 := z3 + z4
 	fmt.Println("ADDFloat64:", ADDFloat64)
 
