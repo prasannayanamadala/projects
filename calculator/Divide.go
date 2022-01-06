@@ -75,20 +75,20 @@ func DivideOperation() {
 
 //floating point
 
-	/*var z1 float32
-	z1 = -666.433
+	var z1 float32
+	z1 = -8.8
 	var z2 float32
-	z2 = -577.8898
-	DIVFloat32 := z1 / z2
+	z2 = 4
+	DIVFloat32 := float32(z1) / float32(z2)
 	fmt.Println("DIVFloat32:", DIVFloat32)
 
 	var z3 float64
-	z3 = -666.433
+	z3 = 3576.56758
 	var z4 float64
-	z4 = -577.8898
-	DIVFloat64 := z3 / z4
+	z4 = 10
+	DIVFloat64 := float64(z3) / float64(z4)
 	fmt.Println("DIVFloat64:", DIVFloat64)
 
 	DIVFloat := float64(z1) / z4
-	fmt.Println("DIVFloat32 & 64:", DIVFloat)*/
+	fmt.Println("DIVFloat32 & 64:", DIVFloat)
 }
