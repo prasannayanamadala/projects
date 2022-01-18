@@ -64,11 +64,13 @@ func ScoreCard() {
 	SrilankaBowler["KK"] = 110
 
 	fmt.Println("Names and Runs conceded by Sri Lanka Bowlers:", SrilankaBowler)
+	//fmt.Println("Points scored by Srilanka Bowler 1:",SrilankaBowler["AA"])  accessing score of 1player
 
-	India := 0
-	for i := 0;i < len(IndianPlayer);i++ {
-		India = India+ IndianPlayer[i]
-	}
-	fmt.Println("Total points scored by :",India)
-
+	Total := IndianPlayer["A"] +IndianPlayer["B"]+IndianPlayer["C"]+IndianPlayer["D"]+IndianPlayer["E"]+IndianPlayer["F"]+IndianPlayer["G"]+IndianPlayer["H"]+IndianPlayer["I"]+IndianPlayer["J"]+IndianPlayer["K"]
+	fmt.Println("Final score of India:",Total)
+	Total1 := SrilankaPlayer["AA"]+SrilankaPlayer["BB"]+SrilankaPlayer["CC"]+SrilankaPlayer["DD"]+SrilankaPlayer["EE"]+SrilankaPlayer["FF"]+SrilankaPlayer["GG"]+SrilankaPlayer["HH"]+SrilankaPlayer["II"]+SrilankaPlayer["JJ"]+SrilankaPlayer["KK"]
+	fmt.Println("Final score of Srilanka:",Total1)
+	
+	Result := Total - Total1
+	fmt.Println("Result of Match(India won by):",Result)
 }
