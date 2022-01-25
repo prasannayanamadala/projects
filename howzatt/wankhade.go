@@ -64,7 +64,7 @@ func ScoreCard() {
 	SrilankaBowler["KK"] = 110
 
 	fmt.Println("Names and Runs conceded by Sri Lanka Bowlers:", SrilankaBowler)
-	//fmt.Println("Points scored by Srilanka Bowler 1:",SrilankaBowler["AA"])  accessing score of 1player
+	fmt.Println("Points scored by Srilanka Bowler 1:",SrilankaBowler["AA"])  //accessing score of 1player
 
 	Total := IndianPlayer["A"] +IndianPlayer["B"]+IndianPlayer["C"]+IndianPlayer["D"]+IndianPlayer["E"]+IndianPlayer["F"]+IndianPlayer["G"]+IndianPlayer["H"]+IndianPlayer["I"]+IndianPlayer["J"]+IndianPlayer["K"]
 	fmt.Println("Final score of India:",Total)
@@ -73,4 +73,28 @@ func ScoreCard() {
 	
 	Result := Total - Total1
 	fmt.Println("Result of Match(India won by):",Result)
+	 
+	// using for
+{
+	for key, val1 := range IndianPlayer {
+		fmt.Println("Final score of India:",key,val1)
+		fmt.Println()
+
+	}
+	for key, val := range SrilankaPlayer {
+		fmt.Println("Final score of Srilanka:",key,val)
+		fmt.Println()
+	}
+	val1:=660
+	val := 640
+	if val1 > val {
+		fmt.Println("Result of match-India won the game")
+	} else if val1 == val {
+		fmt.Println("match tie")
+	} else {
+		fmt.Println("Result of match-Srilanka won the game")
+	}
+	}
+	
 }
+
