@@ -13,7 +13,7 @@ func GameScore() {
 	var G1 Hogwarts
 	G1.Name = "Gryffindor"
 
-	G1.pointsscored = make([]int,0,40)
+	G1.pointsscored = make([]int,0)
 
 	for i:=1 ; i<=40 ;i++ {
 		G1.pointsscored = append(G1.pointsscored,i)
@@ -44,7 +44,7 @@ func GameScore() {
 	var G2 Hogwarts
 	G2.Name = "Slytherin"
 	
-	G2.pointsscored = make([]int,0,40)
+	G2.pointsscored = make([]int,0)
 
 	 for i:=1; i<=40 ; i=i+1 {
 		G2.pointsscored = append(G2.pointsscored, i)
@@ -77,7 +77,7 @@ func GameScore() {
 	var G3 Hogwarts
 	
 	G3.Name = "Ravenclaw"
-	G3.pointsscored = make([]int,0,40)
+	G3.pointsscored = make([]int,0)
 	G3.pointsscored = append(G3.pointsscored,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40)
 	
 	sum2 := 0
@@ -104,7 +104,7 @@ func GameScore() {
 
 		var G4 Hogwarts
 		G4.Name = "Hufflepuff"
-		G4.pointsscored = make([]int,0,40)
+		G4.pointsscored = make([]int,0)
 		G4.pointsscored = append(G4.pointsscored,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,1,2,3,29,35,36,37,38,39,40)
 	
 	sum3 := 0
