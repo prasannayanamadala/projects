@@ -2,17 +2,27 @@ package game
  
 import "fmt"
 
-func GameScore() {
+type Hogwarts struct {
+	Name     string
+	pointsscored slice int
+	avg       float32
+}
 
-	Gryffindor := make([]int,0,40)
+func GameScore() {
+	
+	var G1 Hogwarts
+	G1.Name = "Gryffindor"
+
+	G1.pointsscored = make([]int,0,40)
+
 	for i:=1 ; i<=40 ;i++ {
-		Gryffindor = append(Gryffindor , i)
+		G1.pointsscored = append(G1.pointscsored, i)
 	}
 	sum := 0
-	for i := 0;i < len(Gryffindor);i++ {
-		sum = sum + Gryffindor[i]
+	for i := 0;i < len(G1.pointsscored);i++ {
+		sum = sum + G1.pointsscored[i]
 	}
-	fmt.Println("List of points scored by each student in group Gryffindor:",Gryffindor)
+	fmt.Println("List of points scored by each student in group Gryffindor:",G1pointsscored)
 	fmt.Println("Total points scored by group Gryffindor:",sum)
 
 	Gryffindor1 := Gryffindor
